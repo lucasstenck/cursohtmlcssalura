@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+
+    * {
+margin: 0;
+padding: 0px;
+}
+
+.body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:black;
+    color: aliceblue;
+    margin-top: 10px;
+    }
+
+
+.cabecalho {
+    color: aquamarine;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    padding: 1px 1px 1px 300px;
+    width: 50%;
+
+   }
+   
+   .cabecalho_menu {
+   display: flex;
+   gap: 80px;
+   
+   }
+   
+   .cabecalho_menu_link {
+       text-decoration: none;
+       color: rgb(173, 197, 248);
+       font-weight: 600;
+       background-color: rgb(17, 17, 17);
+       width: 200px;
+       text-align: center;
+       font-size: 15px;
+   
+    }
+
+    .corpo {
+        margin: 10%;
+        padding: 2% 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        gap: 0px;
+        
+    }
+
+.texto {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.rodape {
+
+    background-color: aqua;
+    width: 100%;
+    padding: 15px;
+    margin-top: 35px;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+
+.titulo {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 900;
+    width: 50%;
+
+}
+
+.paragrafos {
+font-family: 'Palanquin', sans-serif;
+font-weight: 600;
+font-size: 14px;
+width: 50%;
+
+}
+
+.imgem {
+    width: 50%;
+    
+}
+
+@media (max-width: 929px) {
+ .corpo {
+    flex-direction: column-reverse;
+    width: auto;
+ }
+
+ .cabecalho {
+    padding: 5%;
+   
+
+}
+
+.cabecalho_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.corpo {
+    width: auto;
+
+    
+}
+
+}
+
+
+
+
+/* width: 100%; também é muito utilizado no mobily */
